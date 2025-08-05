@@ -8,10 +8,6 @@
 Modular AI agent framework for data driven automation  
 ![Stars](https://img.shields.io/github/stars/costasford/gpt-fusion?style=social) ![Open issues](https://img.shields.io/github/issues/costasford/gpt-fusion) ![Last commit](https://img.shields.io/github/last-commit/costasford/gpt-fusion)
 
-### Roguelike Meta Tracker
-Vue 3 and Python app for loadout analytics  
-![Stars](https://img.shields.io/github/stars/costasford/roguelike-meta-tracker?style=social) ![Open issues](https://img.shields.io/github/issues/costasford/roguelike-meta-tracker) ![Last commit](https://img.shields.io/github/last-commit/costasford/roguelike-meta-tracker)
-
 ### Portfolio
 [costasford.github.io](https://costasford.github.io) redesign focused on accessibility and CSS animation  
 ![Stars](https://img.shields.io/github/stars/costasford/costasford.github.io?style=social) ![Open issues](https://img.shields.io/github/issues/costasford/costasford.github.io) ![Last commit](https://img.shields.io/github/last-commit/costasford/costasford.github.io)
@@ -47,7 +43,7 @@ Rust • LangChain
 This profile and all repositories are under the [MIT License](LICENSE).
 
 ## Code of Conduct
-I follow the [Contributor Covenant](CODE_OF_CONDUCT.md). Be excellent to each other.
+I follow the [Contributor Covenant](https://www.contributor-covenant.org). Be excellent to each other.
 
 ## Writing
 Devlog at [blog.costasford.dev](https://blog.costasford.dev) (work in progress).
