@@ -40,7 +40,7 @@ Open source collaborators and contract gigs.
 Rust • LangChain
 
 ## License
-This profile and all repositories are under the [MIT License](LICENSE).
+This profile and all repositories are under the [MIT License](https://opensource.org/license/mit).
 
 ## Code of Conduct
 I follow the [Contributor Covenant](https://www.contributor-covenant.org). Be excellent to each other.
