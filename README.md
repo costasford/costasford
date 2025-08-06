@@ -4,11 +4,11 @@
 <!-- keywords: Costas Ford, JavaScript, TypeScript, Vue, Python, AI, GPT Fusion, automation, open source -->
 
 ## 🚀 Featured Projects
+
 ### GPT Fusion [![Build Status](https://img.shields.io/github/actions/workflow/status/costasford/gpt-fusion/ci.yml?branch=main)](https://github.com/costasford/gpt-fusion/actions)
 Modular AI agent framework for data driven automation  
 
----
-### 🚀 Quick Start
+#### Quick Start
 ```bash
 npm install gpt-fusion
 ```
@@ -40,7 +40,7 @@ try {
 [📚 Documentation](https://github.com/costasford/gpt-fusion#readme) • [🎯 Examples](https://github.com/costasford/gpt-fusion/tree/main/examples) • [🤝 Contributing](https://github.com/costasford/gpt-fusion/blob/main/CONTRIBUTING.md)
 ![Stars](https://img.shields.io/github/stars/costasford/gpt-fusion?style=social) ![Open issues](https://img.shields.io/github/issues/costasford/gpt-fusion) ![Last commit](https://img.shields.io/github/last-commit/costasford/gpt-fusion)
 
-### Portfolio
+### Portfolio Website
 [costasford.github.io](https://costasford.github.io) redesign focused on accessibility and CSS animation  
 ![Stars](https://img.shields.io/github/stars/costasford/costasford.github.io?style=social) ![Open issues](https://img.shields.io/github/issues/costasford/costasford.github.io) ![Last commit](https://img.shields.io/github/last-commit/costasford/costasford.github.io)
 
@@ -93,7 +93,7 @@ try {
 
 ## 📊 GitHub Stats
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=costasford&show_icons=true&theme=transparent&hide_border=true)  
-![GitHub streak](https://github-readme-streak-stats.herokuapp.com?user=costasford&theme=transparent&hide_border=true)  
+![GitHub streak](https://streak-stats.demolab.com?user=costasford&theme=transparent&hide_border=true)  
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=costasford&layout=compact&theme=transparent&hide_border=true)
 
 ## Extras
