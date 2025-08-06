@@ -14,14 +14,28 @@ npm install gpt-fusion
 ```
 ```javascript
 import { GPTFusion } from 'gpt-fusion';
-// Initialize with your OpenAI API key
-const fusion = new GPTFusion(process.env.OPENAI_API_KEY);
 
-// Create an AI agent
-const agent = fusion.createAgent({
-  model: 'gpt-4',
-  temperature: 0.7
-});
+// Initialize with configuration and error handling
+try {
+  const fusion = new GPTFusion({
+    apiKey: process.env.OPENAI_API_KEY,
+    maxRetries: 3,
+    timeout: 30000,
+    debug: process.env.NODE_ENV === 'development'
+  });
+
+  // Create an AI agent with robust configuration
+  const agent = await fusion.createAgent({
+    model: 'gpt-4',
+    temperature: 0.7,
+    maxTokens: 2048,
+    systemPrompt: 'You are a helpful AI assistant'
+  });
+} catch (error) {
+  console.error('Failed to initialize GPT Fusion:', error);
+  // Implement your error handling strategy
+  throw new Error('GPT Fusion initialization failed');
+}
 ```
 [📚 Documentation](https://github.com/costasford/gpt-fusion#readme) • [🎯 Examples](https://github.com/costasford/gpt-fusion/tree/main/examples) • [🤝 Contributing](https://github.com/costasford/gpt-fusion/blob/main/CONTRIBUTING.md)
 ![Stars](https://img.shields.io/github/stars/costasford/gpt-fusion?style=social) ![Open issues](https://img.shields.io/github/issues/costasford/gpt-fusion) ![Last commit](https://img.shields.io/github/last-commit/costasford/gpt-fusion)
@@ -44,7 +58,7 @@ const agent = fusion.createAgent({
 
 ## 🛠️ Tech Stack
 ### Core Technologies
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff) ![Vue 3](https://img.shields.io/badge/Vue%203-4FC08D?logo=vue.js&logoColor=fff) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)
+![JavaScript Programming Language](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000 "JavaScript") ![TypeScript Programming Language](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff "TypeScript") ![Vue.js 3 Framework](https://img.shields.io/badge/Vue%203-4FC08D?logo=vue.js&logoColor=fff "Vue 3") ![Python Programming Language](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff "Python") ![Docker Containerization](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff "Docker")
 
 ### Development Tools & Frameworks
 - **Frontend**: Vue.js 3 (Composition API), TypeScript 5.x
@@ -59,7 +73,7 @@ const agent = fusion.createAgent({
 - Open source accessibility tools
 
 ## 📫 Connect With Me
-- 📧 Email: [costasford@proton.me](mailto:costasford@proton.me) (checked daily)
+- 📧 Email: `costasford [at] proton [dot] me` (checked daily)
 - 💻 GitHub: [@costasford](https://github.com/costasford) (issues and discussions, daily)
 - 💬 Matrix: `@costasford:matrix.org` (checked daily)
 - 🔗 LinkedIn: [/in/costas-ford](https://linkedin.com/in/costas-ford) (DMs open)
@@ -79,7 +93,8 @@ const agent = fusion.createAgent({
 
 ## 📊 GitHub Stats
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=costasford&show_icons=true&theme=transparent&hide_border=true)  
-![GitHub streak](https://github-readme-streak-stats.herokuapp.com?user=costasford&theme=transparent&hide_border=true)
+![GitHub streak](https://github-readme-streak-stats.herokuapp.com?user=costasford&theme=transparent&hide_border=true)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=costasford&layout=compact&theme=transparent&hide_border=true)
 
 ## Extras
 🎮 Binding of Isaac and Brotato theory crafter  
@@ -87,9 +102,12 @@ const agent = fusion.createAgent({
 
 ## 📚 Learning Journey
 ### Currently Exploring
-- 🦀 Rust for system programming
-- ⚡ LangChain for AI applications
-- 🔄 Advanced CI/CD patterns
+- 🦀 Rust for system programming [▓▓▓░░░░░░░] 30%
+  - [View my Rust projects](https://github.com/costasford?tab=repositories&q=rust&type=source)
+- ⚡ LangChain for AI applications [▓▓▓▓▓░░░░░] 50%
+  - [Check GPT Fusion integration](https://github.com/costasford/gpt-fusion)
+- 🔄 Advanced CI/CD patterns [▓▓▓▓▓▓░░░░] 60%
+  - [Browse my GitHub Actions workflows](https://github.com/search?q=user%3Acostasford+path%3A.github%2Fworkflows&type=code)
 
 ### Completed Achievements
 - 🏆 100 Days of Code Challenge
@@ -111,5 +129,8 @@ I follow the [Contributor Covenant](https://www.contributor-covenant.org/version
 Devlog at [blog.costasford.dev](https://blog.costasford.dev) (🚧 IN PROGRESS)
 
 ## Support
-If my work helps you, consider [sponsoring](https://github.com/sponsors/costasford) or buying me a coffee  
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20coffee-FFDD00?logo=buy-me-a-coffee&logoColor=000)](https://buymeacoffee.com/costasford)
+If my work helps you, consider supporting in one of these ways:
+
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor%20on%20GitHub-30363D?logo=github&logoColor=fff)](https://github.com/sponsors/costasford) [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20coffee-FFDD00?logo=buy-me-a-coffee&logoColor=000)](https://buymeacoffee.com/costasford) [![Ko-fi](https://img.shields.io/badge/Support%20on%20Ko--fi-FF5E5B?logo=ko-fi&logoColor=fff)](https://ko-fi.com/costasford) [![Patreon](https://img.shields.io/badge/Support%20on%20Patreon-FF424D?logo=patreon&logoColor=fff)](https://patreon.com/costasford)
+
+Your support helps me maintain and improve these open source projects! 🙏
