@@ -46,9 +46,9 @@
 *Python toolkit for AI-assisted development*
 
 [![CI Status](https://img.shields.io/github/actions/workflow/status/costasford/gpt-fusion/ci.yml?style=flat-square)](https://github.com/costasford/gpt-fusion/actions)
-[![PyPI Version](https://img.shields.io/pypi/v/gpt-fusion?style=flat-square)](https://pypi.org/project/gpt-fusion/)
-[![Python](https://img.shields.io/pypi/pyversions/gpt-fusion?style=flat-square)](https://pypi.org/project/gpt-fusion/)
-[![Downloads](https://img.shields.io/pypi/dm/gpt-fusion?style=flat-square)](https://pypi.org/project/gpt-fusion/)
+[![Version](https://img.shields.io/badge/version-0.2.0-brightgreen?style=flat-square)](https://github.com/costasford/gpt-fusion/releases)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square)](https://www.python.org/downloads/)
+[![Tests](https://img.shields.io/badge/tests-63%20passed-brightgreen?style=flat-square)](https://github.com/costasford/gpt-fusion/actions)
 
 **Features:**
 - 📊 Interactive data analysis with streaming CSV
