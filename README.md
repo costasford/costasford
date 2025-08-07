@@ -46,9 +46,10 @@
 *Python toolkit for AI-assisted development*
 
 [![CI Status](https://img.shields.io/github/actions/workflow/status/costasford/gpt-fusion/ci.yml?style=flat-square)](https://github.com/costasford/gpt-fusion/actions)
-[![Version](https://img.shields.io/badge/version-0.2.0-brightgreen?style=flat-square)](https://github.com/costasford/gpt-fusion/releases)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square)](https://www.python.org/downloads/)
+[![Version](https://img.shields.io/badge/version-0.2.0-brightgreen?style=flat-square)](https://github.com/costasford/gpt-fusion/releases)
 [![Tests](https://img.shields.io/badge/tests-63%20passed-brightgreen?style=flat-square)](https://github.com/costasford/gpt-fusion/actions)
+[![Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen?style=flat-square)](https://github.com/costasford/gpt-fusion)
 
 **Features:**
 - 📊 Interactive data analysis with streaming CSV
@@ -57,7 +58,8 @@
 - 🔐 Enhanced authentication UI kit
 
 ```bash
-pip install gpt-fusion
+git clone https://github.com/costasford/gpt-fusion.git
+cd gpt-fusion && pip install -e .
 ```
 
 [🚀 Live Demo](https://costasford.github.io/gpt-fusion/demo.html) • [📚 Docs](https://costasford.github.io/gpt-fusion/) • [⭐ Star on GitHub](https://github.com/costasford/gpt-fusion)
