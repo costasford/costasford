@@ -1,136 +1,207 @@
-# Costas Ford
-> Code crafting everyday problems into elegant tools.
-
-<!-- keywords: Costas Ford, JavaScript, TypeScript, Vue, Python, AI, GPT Fusion, automation, open source -->
-
-## 🚀 Featured Projects
-
-### GPT Fusion [![Build Status](https://img.shields.io/github/actions/workflow/status/costasford/gpt-fusion/ci.yml?branch=main)](https://github.com/costasford/gpt-fusion/actions)
-Modular AI agent framework for data driven automation  
-
-#### Quick Start
-```bash
-npm install gpt-fusion
-```
-```javascript
-import { GPTFusion } from 'gpt-fusion';
-
-// Initialize with configuration and error handling
-try {
-  const fusion = new GPTFusion({
-    apiKey: process.env.OPENAI_API_KEY,
-    maxRetries: 3,
-    timeout: 30000,
-    debug: process.env.NODE_ENV === 'development'
-  });
-
-  // Create an AI agent with robust configuration
-  const agent = await fusion.createAgent({
-    model: 'gpt-4',
-    temperature: 0.7,
-    maxTokens: 2048,
-    systemPrompt: 'You are a helpful AI assistant'
-  });
-} catch (error) {
-  console.error('Failed to initialize GPT Fusion:', error);
-  // Implement your error handling strategy
-  throw new Error('GPT Fusion initialization failed');
-}
-```
-[📚 Documentation](https://github.com/costasford/gpt-fusion#readme) • [🎯 Examples](https://github.com/costasford/gpt-fusion/tree/main/examples) • [🤝 Contributing](https://github.com/costasford/gpt-fusion/blob/main/CONTRIBUTING.md)
-![Stars](https://img.shields.io/github/stars/costasford/gpt-fusion?style=social) ![Open issues](https://img.shields.io/github/issues/costasford/gpt-fusion) ![Last commit](https://img.shields.io/github/last-commit/costasford/gpt-fusion)
-
-### Portfolio Website
-[costasford.github.io](https://costasford.github.io) redesign focused on accessibility and CSS animation  
-![Stars](https://img.shields.io/github/stars/costasford/costasford.github.io?style=social) ![Open issues](https://img.shields.io/github/issues/costasford/costasford.github.io) ![Last commit](https://img.shields.io/github/last-commit/costasford/costasford.github.io)
+<!-- 
+██████╗ ██████╗  ██████╗ ██████╗ ██╗     ███████╗███╗   ███╗    ███████╗ ██████╗ ██╗    ██╗   ██╗███████╗██████╗ 
+██╔══██╗██╔══██╗██╔═══██╗██╔══██╗██║     ██╔════╝████╗ ████║    ██╔════╝██╔═══██╗██║    ██║   ██║██╔════╝██╔══██╗
+██████╔╝██████╔╝██║   ██║██████╔╝██║     █████╗  ██╔████╔██║    ███████╗██║   ██║██║    ██║   ██║█████╗  ██████╔╝
+██╔═══╝ ██╔══██╗██║   ██║██╔══██╗██║     ██╔══╝  ██║╚██╔╝██║    ╚════██║██║   ██║██║    ╚██╗ ██╔╝██╔══╝  ██╔══██╗
+██║     ██║  ██║╚██████╔╝██████╔╝███████╗███████╗██║ ╚═╝ ██║    ███████║╚██████╔╝███████╗╚████╔╝ ███████╗██║  ██║
+╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝╚══════╝╚═╝     ╚═╝    ╚══════╝ ╚═════╝ ╚══════╝ ╚═══╝  ╚══════╝╚═╝  ╚═╝
+-->
 
 <div align="center">
-  <p><strong>🎥 GPT Fusion Demo</strong></p>
-  <a href="https://github.com/costasford/gpt-fusion">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/gpt-fusion-demo-dark.gif">
-      <source media="(prefers-color-scheme: light)" srcset="assets/gpt-fusion-demo-light.gif">
-      <img alt="GPT Fusion Demo" src="assets/gpt-fusion-demo.gif" width="100%">
-    </picture>
-  </a>
-  <p><em>⚡ AI Agent Orchestration in Action</em></p>
+
+# **Costas Ford**
+### *Problem Solver & Developer*
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-costasford.github.io-blue?style=flat-square&logo=safari&logoColor=white)](https://costasford.github.io)
+[![Email](https://img.shields.io/badge/Email-costasford@proton.me-red?style=flat-square&logo=protonmail&logoColor=white)](mailto:costasford@proton.me)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-costasford-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/costasford)
+
+> *"Transforming everyday challenges into elegant digital solutions"*
+
+**📍 San Francisco, CA** • **🕐 Pacific Time** • **📞 650.254.6139 (Text Only)**
+
 </div>
 
-## 🛠️ Tech Stack
-### Core Technologies
-![JavaScript Programming Language](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000 "JavaScript") ![TypeScript Programming Language](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff "TypeScript") ![Vue.js 3 Framework](https://img.shields.io/badge/Vue%203-4FC08D?logo=vue.js&logoColor=fff "Vue 3") ![Python Programming Language](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff "Python") ![Docker Containerization](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff "Docker")
+---
 
-### Development Tools & Frameworks
-- **Frontend**: Vue.js 3 (Composition API), TypeScript 5.x
-- **Backend**: Node.js LTS, FastAPI
-- **DevOps**: GitHub Actions, Docker, Terraform
-- **AI/ML**: OpenAI API, LangChain, Custom ML models
-- **Testing**: Jest, Pytest, Cypress
+## 💼 **About**
 
-### Current Focus
-- Prompt engineering & AI agent architecture
-- Cloud infrastructure automation
-- Open source accessibility tools
+**Problem-solving developer** with a passion for creating sophisticated, accessible web experiences. I specialize in transforming complex challenges into elegant solutions that users love.
 
-## 📫 Connect With Me
-- 📧 Email: `costasford [at] proton [dot] me` (checked daily)
-- 💻 GitHub: [@costasford](https://github.com/costasford) (issues and discussions, daily)
-- 💬 Matrix: `@costasford:matrix.org` (checked daily)
-- 🔗 LinkedIn: [/in/costas-ford](https://linkedin.com/in/costas-ford) (DMs open)
+**Currently focused on:**
+- 🤖 **AI Integration** - Building intelligent tools with Python and modern APIs
+- 🎨 **Interactive Experiences** - Crafting memorable user interfaces
+- ♿ **Accessibility** - Ensuring technology works for everyone
+- 🚀 **Performance** - Optimizing for speed and efficiency
 
-### Availability
-- 🕐 Response time: < 24 hours
-- 🌎 Timezone: Pacific Time (PT)
-- 💼 Open for: Technical discussions, collaborations, mentoring
+---
 
-## 🤝 Currently Seeking
-- 🌟 Open source collaborators for GPT Fusion
-- 💼 Contract opportunities in:
-  - AI/ML Engineering
-  - Full Stack Development
-  - DevOps Automation
-  - Technical Architecture
+## 🌟 **Featured Projects**
 
-## 📊 GitHub Stats
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=costasford&show_icons=true&theme=transparent&hide_border=true)  
-![GitHub streak](https://streak-stats.demolab.com?user=costasford&theme=transparent&hide_border=true)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=costasford&layout=compact&theme=transparent&hide_border=true)
+<table>
+<tr>
+<td width="50%">
 
-## Extras
-🎮 Binding of Isaac and Brotato theory crafter  
-🏅 #100DaysOfCode alum • 3× Hacktoberfest • OSS accessibility advocate
+### 🎮 **GPT Fusion**
+*Python toolkit for AI-assisted development*
 
-## 📚 Learning Journey
-### Currently Exploring
-- 🦀 Rust for system programming [▓▓▓░░░░░░░] 30%
-  - [View my Rust projects](https://github.com/costasford?tab=repositories&q=rust&type=source)
-- ⚡ LangChain for AI applications [▓▓▓▓▓░░░░░] 50%
-  - [Check GPT Fusion integration](https://github.com/costasford/gpt-fusion)
-- 🔄 Advanced CI/CD patterns [▓▓▓▓▓▓░░░░] 60%
-  - [Browse my GitHub Actions workflows](https://github.com/search?q=user%3Acostasford+path%3A.github%2Fworkflows&type=code)
+[![CI Status](https://img.shields.io/github/actions/workflow/status/costasford/gpt-fusion/ci.yml?style=flat-square)](https://github.com/costasford/gpt-fusion/actions)
+[![Coverage](https://img.shields.io/codecov/c/github/costasford/gpt-fusion?style=flat-square)](https://codecov.io/gh/costasford/gpt-fusion)
+[![PyPI](https://img.shields.io/pypi/v/gpt-fusion?style=flat-square)](https://pypi.org/project/gpt-fusion/)
 
-### Completed Achievements
-- 🏆 100 Days of Code Challenge
-- 🎉 3× Hacktoberfest Contributor
-- 🌟 Created 5+ Open Source Projects
+**Features:**
+- 📊 Interactive data analysis with streaming CSV
+- 🌐 FastAPI backend with auto-documentation  
+- 🎯 Unity 3D game integration examples
+- 🔐 Enhanced authentication UI kit
 
-## 📜 License
-This profile and all repositories are under the [MIT License](https://opensource.org/license/mit).
+```bash
+pip install gpt-fusion
+```
 
-## 🤝 Code of Conduct
-I follow the [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/). Be excellent to each other.
+[🚀 Live Demo](https://costasford.github.io/gpt-fusion/demo.html) • [📚 Docs](https://costasford.github.io/gpt-fusion/) • [⭐ Star on GitHub](https://github.com/costasford/gpt-fusion)
 
-- 🎯 Inclusive and welcoming environment
-- 🤝 Respectful communication
-- 💡 Constructive feedback
-- 🌟 Focus on community growth
+</td>
+<td width="50%">
 
-## ✍️ Writing
-Devlog at [blog.costasford.dev](https://blog.costasford.dev) (🚧 IN PROGRESS)
+### 💼 **Interactive Business Card**
+*Sophisticated portfolio inspired by Paul Allen*
 
-## Support
-If my work helps you, consider supporting in one of these ways:
+[![Deployment](https://img.shields.io/github/deployments/costasford/costasford.github.io/github-pages?style=flat-square&label=live)](https://costasford.github.io)
+[![Lighthouse](https://img.shields.io/badge/Lighthouse-100%2F100-brightgreen?style=flat-square)](https://costasford.github.io)
 
-[![GitHub Sponsors](https://img.shields.io/badge/Sponsor%20on%20GitHub-30363D?logo=github&logoColor=fff)](https://github.com/sponsors/costasford) [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20coffee-FFDD00?logo=buy-me-a-coffee&logoColor=000)](https://buymeacoffee.com/costasford) [![Ko-fi](https://img.shields.io/badge/Support%20on%20Ko--fi-FF5E5B?logo=ko-fi&logoColor=fff)](https://ko-fi.com/costasford) [![Patreon](https://img.shields.io/badge/Support%20on%20Patreon-FF424D?logo=patreon&logoColor=fff)](https://patreon.com/costasford)
+**Features:**
+- 🌙 Elegant dark/light theme toggle
+- 🎴 3D flip card with smooth animations
+- 🏷️ Interactive technology filtering
+- 📱 Mobile-optimized responsive design
 
-Your support helps me maintain and improve these open source projects! 🙏
+**Technologies:** HTML5, CSS3, Vanilla JavaScript
+
+[🎯 Experience Live](https://costasford.github.io) • [⭐ View Source](https://github.com/costasford/costasford.github.io)
+
+</td>
+</tr>
+</table>
+
+### 📊 **Data Visualization Dashboard**
+**React & D3.js** competitive gaming leaderboard with real-time updates  
+[🔗 View Live](https://costasford.github.io/NorcalSlippiLeaderboard/#/)
+
+### 🧠 **Journey - Mental Health Platform** 
+**Full-stack application** for autism spectrum behavioral tracking  
+[🔗 View Repository](https://github.com/mantezana1998/Journey)
+
+---
+
+## 🛠️ **Technology Stack**
+
+<div align="center">
+
+### **Languages & Frameworks**
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+
+### **Backend & Infrastructure**
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+### **Databases & Tools**
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
+
+</div>
+
+---
+
+## 📈 **GitHub Analytics**
+
+<div align="center">
+<table>
+<tr>
+<td width="50%">
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=costasford&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&count_private=true)](https://github.com/costasford)
+
+</td>
+<td width="50%">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=costasford&theme=transparent&hide_border=true)](https://github.com/costasford)
+
+</td>
+</tr>
+</table>
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=costasford&layout=compact&theme=transparent&hide_border=true&langs_count=8)](https://github.com/costasford)
+
+</div>
+
+---
+
+## 🎯 **Current Focus**
+
+```javascript
+const currentFocus = {
+  learning: [
+    "Advanced AI/ML integration patterns",
+    "Modern CSS architecture & animations", 
+    "Accessibility best practices",
+    "Performance optimization strategies"
+  ],
+  building: [
+    "Interactive portfolio experiences",
+    "AI-powered development tools",
+    "Open source accessibility solutions"
+  ],
+  seeking: [
+    "Technical collaborations",
+    "Open source contributions", 
+    "Mentorship opportunities",
+    "Innovative project partnerships"
+  ]
+}
+```
+
+---
+
+## 🤝 **Let's Connect**
+
+<div align="center">
+
+**I'm always interested in discussing technology, collaborating on projects, or exploring new opportunities.**
+
+[![Schedule a Call](https://img.shields.io/badge/Schedule%20a%20Call-Calendly-blue?style=for-the-badge&logo=calendly)](https://calendly.com/costasford)
+[![Send Email](https://img.shields.io/badge/Send%20Email-ProtonMail-8B89CC?style=for-the-badge&logo=protonmail)](mailto:costasford@proton.me)
+[![Connect on LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/costasford)
+
+### **Response Time: < 24 hours** ⚡
+
+</div>
+
+---
+
+## 🏆 **Achievements**
+
+<div align="center">
+
+🎖️ **#100DaysOfCode Graduate** • 🌟 **3× Hacktoberfest Contributor** • ♿ **Accessibility Advocate**
+
+</div>
+
+---
+
+<div align="center">
+
+### *"Excellence is not a skill, it's an attitude."* - Ralph Marston
+
+**Built with ❤️ in San Francisco** • **Powered by curiosity and caffeine** ☕
+
+[![Visitors](https://komarev.com/ghpvc/?username=costasford&style=flat-square&color=blue)](https://github.com/costasford)
+
+</div>
