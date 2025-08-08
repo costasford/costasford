@@ -67,21 +67,25 @@ cd gpt-fusion && pip install -e .
 </td>
 <td width="50%">
 
-### 💼 **Interactive Business Card**
-*Sophisticated portfolio inspired by Paul Allen*
+### 💼 **FlowCRM - Property Management**
+*Production-ready CRM with enterprise-grade architecture*
 
-[![Deployment](https://img.shields.io/github/deployments/costasford/costasford.github.io/github-pages?style=flat-square&label=live)](https://costasford.github.io)
-[![Lighthouse](https://img.shields.io/badge/Lighthouse-100%2F100-brightgreen?style=flat-square)](https://costasford.github.io)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-FlowCRM-green?style=flat-square)](https://costasford.github.io/FlowCRM)
+[![CI/CD](https://img.shields.io/github/actions/workflow/status/costasford/FlowCRM/test-and-deploy.yml?style=flat-square&label=CI%2FCD)](https://github.com/costasford/FlowCRM/actions)
+[![Tests](https://img.shields.io/badge/tests-66%2B%20passing-brightgreen?style=flat-square)](https://github.com/costasford/FlowCRM)
+[![Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen?style=flat-square)](https://github.com/costasford/FlowCRM)
 
 **Features:**
-- 🌙 Elegant dark/light theme toggle
-- 🎴 3D flip card with smooth animations
-- 🏷️ Interactive technology filtering
-- 📱 Mobile-optimized responsive design
+- 🏠 Contact & company management with CRUD operations
+- 📊 Interactive kanban deal pipeline with drag-and-drop
+- 🔐 JWT authentication with cross-domain architecture
+- ⚡ Performance optimized with React.memo & custom hooks
+- 🧪 66+ unit tests with Jest & React Testing Library
+- ♿ WCAG AA accessibility compliance
 
-**Technologies:** HTML5, CSS3, Vanilla JavaScript
+**Stack:** React, Node.js, PostgreSQL, Railway, GitHub Actions
 
-[🎯 Experience Live](https://costasford.github.io) • [⭐ View Source](https://github.com/costasford/costasford.github.io)
+[🚀 Live Demo](https://costasford.github.io/FlowCRM) • [⭐ Star on GitHub](https://github.com/costasford/FlowCRM)
 
 </td>
 </tr>
@@ -90,6 +94,10 @@ cd gpt-fusion && pip install -e .
 ### 📊 **Data Visualization Dashboard**
 **React & D3.js** competitive gaming leaderboard with real-time updates  
 [🔗 View Live](https://costasford.github.io/NorcalSlippiLeaderboard/#/)
+
+### 💻 **Interactive Business Card**
+**Sophisticated portfolio** inspired by Paul Allen with 3D flip animations  
+[🎯 Experience Live](https://costasford.github.io) • [⭐ View Source](https://github.com/costasford/costasford.github.io)
 
 ### 🧠 **Journey - Mental Health Platform** 
 **Full-stack application** for autism spectrum behavioral tracking  
