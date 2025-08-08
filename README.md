@@ -71,7 +71,6 @@ cd gpt-fusion && pip install -e .
 *Production-ready CRM with enterprise-grade architecture*
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-FlowCRM-green?style=flat-square)](https://costasford.github.io/FlowCRM)
-[![CI/CD](https://img.shields.io/github/actions/workflow/status/costasford/FlowCRM/test-and-deploy.yml?style=flat-square&label=CI%2FCD)](https://github.com/costasford/FlowCRM/actions)
 [![Tests](https://img.shields.io/badge/tests-66%2B%20passing-brightgreen?style=flat-square)](https://github.com/costasford/FlowCRM)
 [![Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen?style=flat-square)](https://github.com/costasford/FlowCRM)
 
