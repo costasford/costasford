@@ -10,7 +10,7 @@
 <div align="center">
 
 # **Costas Ford**
-### *Problem Solver & Developer*
+### *Developer & Problem Solver*
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-costasford.github.io-blue?style=flat-square&logo=safari&logoColor=white)](https://costasford.github.io)
 [![Email](https://img.shields.io/badge/Email-costasford@proton.me-red?style=flat-square&logo=protonmail&logoColor=white)](mailto:costasford@proton.me)
