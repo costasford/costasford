@@ -43,36 +43,34 @@
 <td width="50%">
 
 ### 🎮 **GPT Fusion**
-*Python toolkit for AI-assisted development*
+*Python toolkit for AI-assisted development, published on PyPI*
 
 [![CI Status](https://img.shields.io/github/actions/workflow/status/costasford/gpt-fusion/ci.yml?style=flat-square)](https://github.com/costasford/gpt-fusion/actions)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square)](https://www.python.org/downloads/)
-[![Version](https://img.shields.io/badge/version-0.2.0-brightgreen?style=flat-square)](https://github.com/costasford/gpt-fusion/releases)
-[![Tests](https://img.shields.io/badge/tests-63%20passed-brightgreen?style=flat-square)](https://github.com/costasford/gpt-fusion/actions)
-[![Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen?style=flat-square)](https://github.com/costasford/gpt-fusion)
+[![Version](https://img.shields.io/badge/version-0.4.4-brightgreen?style=flat-square)](https://pypi.org/project/gpt-fusion/)
+[![Tests](https://img.shields.io/badge/tests-135%20passed-brightgreen?style=flat-square)](https://github.com/costasford/gpt-fusion/actions)
 
 **Features:**
+- 🧱 Project generators for CSV/data apps, Tailwind UIs, and full-stack apps with real auth + database scaffolding
 - 📊 Interactive data analysis with streaming CSV
-- 🌐 FastAPI backend with auto-documentation  
+- 🌐 FastAPI backend with auto-documentation
 - 🎯 Unity 3D game integration examples
 - 🔐 Enhanced authentication UI kit
 
 ```bash
-git clone https://github.com/costasford/gpt-fusion.git
-cd gpt-fusion && pip install -e .
+pip install gpt-fusion
 ```
 
-[🚀 Live Demo](https://costasford.github.io/gpt-fusion/demo.html) • [📚 Docs](https://costasford.github.io/gpt-fusion/) • [⭐ Star on GitHub](https://github.com/costasford/gpt-fusion)
+[🚀 Live Demo](https://costasford.github.io/gpt-fusion/demo.html) • [📦 PyPI](https://pypi.org/project/gpt-fusion/) • [⭐ Star on GitHub](https://github.com/costasford/gpt-fusion)
 
 </td>
 <td width="50%">
 
 ### 💼 **FlowCRM - Property Management**
-*Production-ready CRM with enterprise-grade architecture*
+*Production-ready CRM, self-hosted end to end*
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-FlowCRM-green?style=flat-square)](https://costasford.github.io/FlowCRM)
 [![Tests](https://img.shields.io/badge/tests-66%2B%20passing-brightgreen?style=flat-square)](https://github.com/costasford/FlowCRM)
-[![Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen?style=flat-square)](https://github.com/costasford/FlowCRM)
 
 **Features:**
 - 🏠 Contact & company management with CRUD operations
@@ -82,7 +80,7 @@ cd gpt-fusion && pip install -e .
 - 🧪 66+ unit tests with Jest & React Testing Library
 - ♿ WCAG AA accessibility compliance
 
-**Stack:** React, Node.js, PostgreSQL, Railway, GitHub Actions
+**Stack:** React, Node.js/Express, Sequelize/PostgreSQL — backend, database, and a Caddy reverse proxy all self-hosted in Docker Compose on my own VPS
 
 [🚀 Live Demo](https://costasford.github.io/FlowCRM) • [⭐ Star on GitHub](https://github.com/costasford/FlowCRM)
 
@@ -90,17 +88,21 @@ cd gpt-fusion && pip install -e .
 </tr>
 </table>
 
-### 📊 **Data Visualization Dashboard**
-**React & D3.js** competitive gaming leaderboard with real-time updates  
-[🔗 View Live](https://costasford.github.io/NorcalSlippiLeaderboard/#/)
+### 📊 **NorcalSlippiLeaderboard**
+**React & TypeScript** competitive gaming leaderboard — forked from an open-source starter and rebuilt with a custom backend: a Discord-integrated tag-request system with one-click bot-driven approve/reject, and live per-player rank-change and rating-settling indicators.
+[🔗 View Live](https://costasford.github.io/NorcalSlippiLeaderboard/#/) • [⭐ View Source](https://github.com/costasford/NorcalSlippiLeaderboard)
 
-### 💻 **Interactive Business Card**
-**Sophisticated portfolio** inspired by Paul Allen with 3D flip animations  
+### 🌴 **WebOasis - Start Page & Web Portal**
+**Personal all-in-one start page** with a curated icon menu and built-in web tools — a continuation of another developer's abandoned open-source project.
+[🎯 Experience Live](https://costasford.github.io/weboasis/) • [⭐ View Source](https://github.com/costasford/weboasis)
+
+### 💻 **Portfolio Site**
+**Redesigned personal portfolio** — warm cardstock palette, Fraunces/JetBrains Mono typography, built to accurately showcase every project below.
 [🎯 Experience Live](https://costasford.github.io) • [⭐ View Source](https://github.com/costasford/costasford.github.io)
 
-### 🧠 **Journey - Mental Health Platform** 
-**Full-stack application** for autism spectrum behavioral tracking  
-[🔗 View Repository](https://github.com/mantezana1998/Journey)
+### 🧠 **Journey - ABA Data Tracking**
+**Full-stack application** for autism spectrum behavioral progress tracking, forked from a team capstone project and now maintained solo.
+[🔗 View Repository](https://github.com/costasford/Journey) • [🎯 Live Demo](https://costasford.github.io/Journey)
 
 ---
 
